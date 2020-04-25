@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="Cache-Control" content="no-siteapp">
+  <link rel="icon" href="icon/logo.svg" sizes="192x192" />
+  <link rel="shortcut icon" href="icon/logo.svg" />
+  <link rel="apple-touch-icon-precomposed" href="icon/logo.svg" />
+  <meta name="msapplication-TileImage" content="icon/logo.svg" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-touch-fullscreen" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <title>SH IT Search</title>
+  <link href="style.css" rel="stylesheet">
+  <script src="https://at.alicdn.com/t/font_1780781_7yippvl6w3k.js"></script>
+  <script src="https://cdnjs.loli.net/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="shit.js"></script>
+</head>
+
+<body>
+  <div id="menu"><i></i></div>
+  <div class="list closed">
+    <ul>
+      <!------>
+      <li class="title"><svg class="icon" aria-hidden="true">
+          <use xlink:href="#icon-forum"></use>
+        </svg> Common </li>
+      <li><a rel="nofollow" href="https://github.com/" target="_blank"><svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-github"></use>
+          </svg>Github</a></li>
+      <li><a rel="nofollow" href="https://gitee.com/" target="_blank"><svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-gitee"></use>
+          </svg>Gitee</a></li>
+      <li><a rel="nofollow" href="https://stackoverflow.com/" target="_blank"><svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-stackoverflowcolor"></use>
+          </svg>Overflow</a></li>
+      <!------>
+      <li class="title"><svg class="icon" aria-hidden="true">
+          <use xlink:href="#icon-study"></use>
+        </svg> Study </li>
+      <li><a rel="nofollow" href="http://www.w3school.com.cn/" target="_blank"><svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-wc"></use>
+          </svg>W3school</a></li>
+      <!------>
+      <li class="title"><svg class="icon" aria-hidden="true">
+          <use xlink:href="#icon-ContactPerson"></use>
+        </svg> Personal </li>
+      <li><a rel="nofollow" href="http://shit-hub.github.io/" target="_blank"><svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-home-page"></use>
+          </svg>Homepage</a></li>
+    </ul>
+  </div>
+
+  <div id="content">
+    <div class="con">
+      <div class="shitlogo"></div>
+      <div class="search">
+        <form action="https://mijisou.com/search?language=zh-CN&pageno=1" method="get" target="_self">
+          <input class="wd" type="text" name="q" x-webkit-speech lang="en">
+          <button><svg class="icon" style=" width: 21px; height: 21px; opacity: 0.5;" aria-hidden="true">
+              <use xlink:href="#icon-chakanhf"></use>
+            </svg></button>
+        </form>
+        <ul>
+          <li data-s="baidu" target="_blank"><i style="background-image: url(icon/baidu.svg);"></i>Baidu</li>
+          <li data-s="google" target="_blank"><i style="background-image: url(icon/google.svg);"></i>Google</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
