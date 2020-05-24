@@ -1,2 +1,2 @@
-# [Shit-hub Homepage](shithub.github.io)
+# [Shit-hub Homepage](shit-hub.github.io)
 
