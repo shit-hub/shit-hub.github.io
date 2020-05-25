@@ -18,12 +18,30 @@ $(document).ready(function() {
                 $(".t").val("g");
                 $("form").submit();
             }
-        } else {
+        } else if (dt == "baidu") {
             if (wd == "" || wd == null) {
                 window.location.href = "https://www.baidu.com/?tn=simple";
             } else {
                 $("form").attr('action', 'https://www.baidu.com/s?ie=utf-8');
                 $(".wd").attr("name","wd");
+                $(".t").val("b");
+                $("form").submit();
+            }
+        } else if (dt == "bing") {
+            if (wd == "" || wd == null) {
+                window.location.href = "https://cn.bing.com/?scope=web";
+            } else {
+                $("form").attr('action', 'https://cn.bing.com/search?scope=web');
+                $(".wd").attr("name","q");
+                $(".t").val("b");
+                $("form").submit();
+            }
+        } else if (dt == "magi") {
+            if (wd == "" || wd == null) {
+                window.location.href = "https://magi.com/";
+            } else {
+                $("form").attr('action', 'https://magi.com/search?');
+                $(".wd").attr("name","q");
                 $(".t").val("b");
                 $("form").submit();
             }
