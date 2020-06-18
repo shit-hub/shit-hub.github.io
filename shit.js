@@ -36,15 +36,6 @@ $(document).ready(function() {
                 $(".t").val("b");
                 $("form").submit();
             }
-        } else if (dt == "magi") {
-            if (wd == "" || wd == null) {
-                window.location.href = "https://magi.com/";
-            } else {
-                $("form").attr('action', 'https://magi.com/search?');
-                $(".wd").attr("name","q");
-                $(".t").val("b");
-                $("form").submit();
-            }
         }
     });
 

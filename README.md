@@ -4,8 +4,6 @@ This home page is used for IT.
 - Simple search
 - Some common website in the sidecar.
 ### Search Engine
-- Miji (Default)
 - Baidu
 - Google
-- Bing
-- Magi
+- Bing (Default)
