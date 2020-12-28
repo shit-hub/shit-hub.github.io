@@ -1,17 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--Generator: Adobe Illustrator 23.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)-->
-<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 200 50" style="enable-background: new 0 0 200 50" xml:space="preserve">
-	<style type="text/css">
-    </style>
-    <text font-size="18" textLength="117.7" fill="#e1cf76" x="59.1" y="32.5">
-        SH IT Search
-    </text>
-	<g>
-		<g transform="matrix(0.4,0,0,0.4,18.6,10.1)">
-            <path d="M 465.1 328.9 c 7.4 -12.2 11.7 -26.5 11.7 -41.8 c 0 -41.4 -31.3 -75.5 -71.5 -79.9 c 7.1 -12 11.3 -26 11.3 -41 c 0 -44.4 -36 -80.4 -80.4 -80.4 h -28.8 c -7.2 -5 -53.1 -38.9 -23.2 -68.3 c 8.8 -8.6 -13 -20.9 -33.3 -7.4 c -11.4 7.6 -41.8 30.4 -32.8 75.6 h -3.4 c -44.4 0 -80.4 36 -80.4 80.4 c 0 15 4.1 29 11.2 41 c -40.2 4.4 -71.5 38.5 -71.5 79.9 c 0 15.3 4.3 29.6 11.7 41.8 C 48 335.6 19.4 368.5 19.4 408.1 c 0 44.4 36 80.4 80.4 80.4 h 351.2 c 44.4 0 80.4 -36 80.4 -80.4 C 531.4 368.5 502.8 335.6 465.1 328.9 z" style="fill: #e1cf76" transform="matrix(0.1,0,0,0.1,23.3,11)"/>
-            <g transform="matrix(0.1,0,0,0.1,31.2,13)">
-                <path d="M 330.4 292.4 c 7.4 -12.2 11.7 -26.5 11.7 -41.8 c 0 -41.4 -31.3 -75.5 -71.5 -79.9 c 7.1 -12 11.3 -26 11.3 -41 c 0 -44.4 -36 -80.4 -80.4 -80.4 h -28.8 c -2.7 -1.9 -10.9 -7.9 -18.5 -16.1 v 418.7 h 162.1 c 44.4 0 80.4 -36 80.4 -80.4 C 396.6 332 368 299.1 330.4 292.4 z" style="fill: #dbc55b"/>
-            </g>
-        </g>
-        </g>
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="802" height="602" id="canvas_background" fill="none"/>
+  <g id="canvasGrid" display="none">
+   <rect id="svg_1" width="100%" height="100%" x="0" y="0" stroke-width="0" fill="url(#gridpattern)"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" opacity="0.5" d="m528.68719,121.84518" id="svg_8"/>
+  <path fill="#ff5656" stroke-width="0" stroke-opacity="null" d="m112.60164,234.5c-16.18127,6.80095 -27.10709,20.59717 -26.96878,34.39337l34.29875,-0.29147c7.46826,0.19431 7.19165,11.75592 0,11.95023c-15.12096,-0.09714 -30.2419,-0.19431 -45.36285,-0.29144c-16.87277,0.29144 -17.05717,29.92416 0,30.0213c17.05717,0.09717 5.80864,0.09717 12.17052,0c6.36186,-0.09714 6.36186,11.46448 0,11.65878c-11.43292,0.09714 -14.29114,0.19431 -25.72406,0.29144c-20.9296,0.24292 -20.8374,34.58768 -0.8298,34.68484c-0.1844,0.09717 103.91045,0.48578 103.726,0.58295c23.69565,-0.19431 23.88007,-35.07346 0,-35.26779c-21.114,0.19434 -33.65332,-0.19431 -54.7673,0c-6.54628,0.0972 -6.7307,-11.75592 0,-11.95023c14.38333,-0.19431 27.10706,-0.09714 43.14999,0c16.04297,0.09717 16.04297,-29.827 0,-29.72986l-9.40446,0c5.99306,-3.88626 7.00728,-10.97867 -1.10645,-18.65402c-9.72716,-9.13272 -28.85887,-8.35544 -29.18156,-27.3981l-0.00001,0z" id="svg_9" stroke="#000"/>
+  <text font-style="normal" font-weight="bold" fill="#ffff00" stroke-width="0" stroke-opacity="null" x="90.59354" y="338.57852" id="svg_13" font-size="76" font-family="'Trebuchet MS', Gadget, sans-serif" text-anchor="start" xml:space="preserve" transform="matrix(1.27141 0 0 1.51235 95.4875 -174.409)" stroke="#000">SHIT</text>
+  <text font-weight="bold" fill="#ff5656" stroke-width="0" stroke-opacity="null" x="81.1552" y="344.52952" id="svg_2" font-size="76" font-family="'Trebuchet MS', Gadget, sans-serif" text-anchor="start" xml:space="preserve" transform="matrix(1.27141 0 0 1.51235 328.488 -182.409)" stroke="#000">Search</text>
+ </g>
 </svg>
