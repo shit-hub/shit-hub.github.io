@@ -16,7 +16,7 @@ A navigation page for developer. Welcome to commit PR to add your frequently use
   - [Gitee](https://gitee.com/)
   - [Overflow](https://stackoverflow.com/)
 - Blog
-  - [CSDN](https://www.csdn.com/)
+  - [CSDN](https://www.csdn.net/)
   - [OSChina](https://www.oschina.com/)
   - [博客园](https://www.cnblogs.com/)
 - New
@@ -46,7 +46,7 @@ A navigation page for developer. Welcome to commit PR to add your frequently use
   - [BootStrap](https://www.bootcss.com/)
   - [Codepen](https://codepen.io/)
   - [JSDelivr](https://www.jsdelivr.com/)
-  - [IconFont](https://www.iconfont.cn/
+  - [IconFont](https://www.iconfont.cn/)
 - Andriod
   - [Developer](https://developer.android.com/)
   - [AI2](http://ai2.appinventor.mit.edu/)
