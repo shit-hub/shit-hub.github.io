@@ -17,7 +17,7 @@ A navigation page for developer. Welcome to commit PR to add your frequently use
   - [Overflow](https://stackoverflow.com/)
 - Blog
   - [CSDN](https://www.csdn.net/)
-  - [OSChina](https://www.oschina.com/)
+  - [OSChina](https://www.oschina.net/)
   - [博客园](https://www.cnblogs.com/)
 - New
   - [今日热搜](https://tophub.today/)
