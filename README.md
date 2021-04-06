@@ -55,6 +55,7 @@ A navigation page for developer. Welcome to commit PR to add your frequently use
   - [Apple Dev](https://developer.apple.com/)
   - [Tools](https://iosdev.tools/)
 - Devops
+  - [Linux Command](https://git.io/linux)
   - [Shell Check](https://www.shellcheck.net/)
   - [Explain Shell](https://explainshell.com/)
 - Study
