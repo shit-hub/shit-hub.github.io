@@ -25,6 +25,10 @@ A navigation page for developer. Welcome to commit PR to add your frequently use
   - [简书](https://www.jianshu.com/)
 - Tools
   - [菜鸟工具](https://c.runoob.com/)
+- Devops
+  - [Linux Command](https://git.io/linux)
+  - [Shell Check](https://www.shellcheck.net/)
+  - [Explain Shell](https://explainshell.com/)
 - C/C++
   - [C语言](https://www.dotcpp.com/)
   - [C语言中文](http://c.biancheng.net/)
@@ -54,18 +58,11 @@ A navigation page for developer. Welcome to commit PR to add your frequently use
   - [Swift](https://docs.swift.org/)
   - [Apple Dev](https://developer.apple.com/)
   - [Tools](https://iosdev.tools/)
-- Devops
-  - [Linux Command](https://git.io/linux)
-  - [Shell Check](https://www.shellcheck.net/)
-  - [Explain Shell](https://explainshell.com/)
 - Study
   - [菜鸟教程](https://www.runoob.com/)
   - [W3C](http://www.w3school.com.cn/)
   - [51CTO](https://www.51cto.com/)
   - [MOOC](https://www.imooc.com/)
-  - [Coursera](https://www.coursera.org/)
-  - [Tutirial](https://www.tutorialspoint.com/)
-  - [TechBeamer](https://www.techbeamers.com/)
 - IT Exam
   - [Leetcode](https://leetcode-cn.com/)
   - [Geeks](https://www.geeksforgeeks.org/)
@@ -77,6 +74,7 @@ A navigation page for developer. Welcome to commit PR to add your frequently use
   - [Vutrl](https://my.vultr.com)
 - Resource
   - [书享家](http://shuxiangjia.cn/)
+  - [学吧导航](https://www.xue8nav.com)
   - [Semantic Sch](https://www.semanticscholar.org/)
   - [CC Search](https://ccsearch.creativecommons.org/)
   - [Pexels](https://www.pexels.com/)
