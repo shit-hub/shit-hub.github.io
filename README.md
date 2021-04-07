@@ -76,7 +76,7 @@ A navigation page for developer. Welcome to commit PR to add your frequently use
   - [腾讯云](https://cloud.tencent.com/)
   - [Vutrl](https://my.vultr.com)
 - Resource
-  - [鸠摩搜书](https://www.jiumodiary.com/)
+  - [书享家](http://shuxiangjia.cn/)
   - [Semantic Sch](https://www.semanticscholar.org/)
   - [CC Search](https://ccsearch.creativecommons.org/)
   - [Pexels](https://www.pexels.com/)
