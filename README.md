@@ -25,6 +25,7 @@ A navigation page for developer. Welcome to commit PR to add your frequently use
   - [简书](https://www.jianshu.com/)
 - Tools
   - [菜鸟工具](https://c.runoob.com/)
+  - [PDF Candy](https://pdfcandy.com)
 - Devops
   - [Linux Command](https://git.io/linux)
   - [Shell Check](https://www.shellcheck.net/)
@@ -69,11 +70,13 @@ A navigation page for developer. Welcome to commit PR to add your frequently use
 - Cloud
   - [阿里云](https://www.aliyun.com/)
   - [腾讯云](https://cloud.tencent.com/)
-  - [Vutrl](https://my.vultr.com)
+  - [Vultr](https://my.vultr.com)
 - Resource
   - [书享家](http://shuxiangjia.cn/)
   - [学吧导航](https://www.xue8nav.com)
   - [科塔学术](https://aur.one)
+  - [阿猫阿狗](https://dh.woshipm.com)
+  - [创造狮](http://chuangzaoshi.com)
 - Work
   - [程序员客栈](https://www.proginn.com/)
   - [开源众包](https://zb.oschina.net/")
