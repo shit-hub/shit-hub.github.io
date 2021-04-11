@@ -62,11 +62,9 @@ A navigation page for developer. Welcome to commit PR to add your frequently use
   - [菜鸟教程](https://www.runoob.com/)
   - [W3C](http://www.w3school.com.cn/)
   - [51CTO](https://www.51cto.com/)
-  - [MOOC](https://www.imooc.com/)
 - IT Exam
   - [Leetcode](https://leetcode-cn.com/)
   - [Geeks](https://www.geeksforgeeks.org/)
-  - [PTA](https://pintia.cn/)
   - [牛客](https://www.nowcoder.com)
 - Cloud
   - [阿里云](https://www.aliyun.com/)
@@ -75,11 +73,7 @@ A navigation page for developer. Welcome to commit PR to add your frequently use
 - Resource
   - [书享家](http://shuxiangjia.cn/)
   - [学吧导航](https://www.xue8nav.com)
-  - [Semantic Sch](https://www.semanticscholar.org/)
-  - [CC Search](https://ccsearch.creativecommons.org/)
-  - [Pexels](https://www.pexels.com/)
-  - [Unsplash](https://unsplash.com/)
-  - [Librestock](https://librestock.com/)
+  - [科塔学术](https://aur.one)
 - Work
   - [程序员客栈](https://www.proginn.com/)
   - [开源众包](https://zb.oschina.net/")
