@@ -6,6 +6,44 @@ $(document).ready(function() {
         $(".wd").focus();
     }
 
+    $("#search").click(function() {
+        wd = $(".wd").val()
+        index = wd.split(":")
+        switch(index[0]) {
+            case "go" :
+                $("form").attr('action', 'https://pkg.go.dev/search?');
+                $(".wd").attr("name","q");
+                $(".wd").val(wd.substr(index[0].length+1))
+                $("form").submit();
+                break;
+            case "rust" :
+                $("form").attr('action', 'https://docs.rs/releases/search?')
+                $(".wd").attr("name","query");
+                $(".wd").val(wd.substr(index[0].length+1))
+                $("form").submit();
+                break;
+            case "py" :
+            case "python" :
+                $("form").attr('action', 'https://docs.python.org/3/search.html?')
+                $(".wd").attr("name","q");
+                $(".wd").val(wd.substr(index[0].length+1))
+                $("form").submit();
+                break;
+            case "http" :
+            case "https" :
+                if (index[1].startsWith("//")) {
+                    location.assign(wd)
+                    return false;
+                }
+                break;
+            default:
+                $("form").attr('action', 'https://cn.bing.com/search?scope=web')
+                $(".wd").attr("name","q");
+                $("form").submit();
+                break;
+        }
+    })
+
     $(".search li").click(function() {
         var dt = $(this).attr('data-s');
         wd = $(".wd").val();
@@ -15,8 +53,8 @@ $(document).ready(function() {
             } else {
                 $("form").attr('action', 'https://www.google.com/search?hl=zh');
                 $(".wd").attr("name","q");
-                $(".t").val("g");
                 $("form").submit();
+                
             }
         } else if (dt == "baidu") {
             if (wd == "" || wd == null) {
@@ -24,7 +62,6 @@ $(document).ready(function() {
             } else {
                 $("form").attr('action', 'https://www.baidu.com/s?ie=utf-8');
                 $(".wd").attr("name","wd");
-                $(".t").val("b");
                 $("form").submit();
             }
         } else if (dt == "bing") {
@@ -33,7 +70,6 @@ $(document).ready(function() {
             } else {
                 $("form").attr('action', 'https://cn.bing.com/search?scope=web');
                 $(".wd").attr("name","q");
-                $(".t").val("b");
                 $("form").submit();
             }
         }
