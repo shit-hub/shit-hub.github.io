@@ -37,8 +37,8 @@ $(document).ready(function() {
                 }
                 break;
             default:
-                $("form").attr('action', 'https://cn.bing.com/search?scope=web')
-                $(".wd").attr("name","q");
+                $("form").attr('action', 'https://goobe.io/search.aspx?')
+                $(".wd").attr("name","k");
                 $("form").submit();
                 break;
         }
