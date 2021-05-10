@@ -29,6 +29,12 @@ $(document).ready(function() {
                 $(".wd").val(wd.substr(index[0].length+1))
                 $("form").submit();
                 break;
+            case "docker" :
+                $("form").attr('action', 'https://docs.docker.com/search/?')
+                $(".wd").attr("name","q");
+                $(".wd").val(wd.substr(index[0].length+1))
+                $("form").submit();
+                break;
             case "http" :
             case "https" :
                 if (index[1].startsWith("//")) {
