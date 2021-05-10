@@ -35,6 +35,9 @@ $(document).ready(function() {
                 $(".wd").val(wd.substr(index[0].length+1))
                 $("form").submit();
                 break;
+            case "linux" :
+                location.assign('https://jaywcjlove.gitee.io/linux-command/list.html#!kw=' + wd.substr(index[0].length+1))
+                return false;
             case "http" :
             case "https" :
                 if (index[1].startsWith("//")) {
