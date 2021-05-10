@@ -6,9 +6,20 @@ A navigation page for developer. Welcome to commit PR to add your frequently use
 - Some common website in the sidecar.
 
 ### Search Engine
+- Goobe (Default)
+- Bing
 - Baidu
 - Google
-- Bing (Default)
+
+### Feature Search
+| Key | description |
+| -- | :-- |
+| `go:` | Search go library in [Go Docs](https://pkg.go.dev) |
+| `rust:` | Search go library in [Rust Docs](https://docs.rs/) |
+| `py:` | Search go library in [Python Docs](https://docs.python.org/) |
+| `python:` | Search go library in [Python Docs](https://docs.python.org/) |
+| `http://` | Jump to the website |
+| `https://` | Jump to the website |
 
 ### Navigation List
 - Common
