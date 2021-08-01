@@ -29,15 +29,22 @@ $(document).ready(function() {
                 $(".wd").val(wd.substr(index[0].length+1))
                 $("form").submit();
                 break;
+            case "linux" :
+                location.assign('https://wangchujiang.com/linux-command/list.html#!kw=' + wd.substr(index[0].length+1))
+                return false;
             case "docker" :
                 $("form").attr('action', 'https://docs.docker.com/search/?')
                 $(".wd").attr("name","q");
                 $(".wd").val(wd.substr(index[0].length+1))
                 $("form").submit();
                 break;
-            case "linux" :
-                location.assign('https://jaywcjlove.gitee.io/linux-command/list.html#!kw=' + wd.substr(index[0].length+1))
-                return false;
+            case "k8s" :
+            case "kubernetes" :
+                $("form").attr('action', 'https://kubernetes.io/search/?')
+                $(".wd").attr("name","q");
+                $(".wd").val(wd.substr(index[0].length+1))
+                $("form").submit();
+                break;
             case "http" :
             case "https" :
                 if (index[1].startsWith("//")) {
@@ -45,6 +52,9 @@ $(document).ready(function() {
                     return false;
                 }
                 break;
+            case "youdao" :
+                location.assign('http://www.youdao.com/w/eng/' + wd.substr(index[0].length+1))
+                return false;
             default:
                 $("form").attr('action', 'https://cn.bing.com/search?scope=web')
                 $(".wd").attr("name","q");
