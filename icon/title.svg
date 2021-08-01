@@ -1,17 +1,22 @@
 <svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
  <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
-
+ <defs>
+  <linearGradient y2="0" x2="1" y1="0" x1="0" id="svg_5">
+   <stop offset="0" stop-color="#ff7f00"/>
+   <stop offset="1" stop-color="#0080ff"/>
+  </linearGradient>
+ </defs>
  <g>
   <title>background</title>
-  <rect x="-1" y="-1" width="802" height="602" id="canvas_background" fill="none"/>
-  <g id="canvasGrid" display="none">
-   <rect id="svg_1" width="100%" height="100%" x="0" y="0" stroke-width="0" fill="url(#gridpattern)"/>
+  <rect fill="none" id="canvas_background" height="602" width="802" y="-1" x="-1"/>
+  <g display="none" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%" id="svg_1"/>
   </g>
  </g>
  <g>
   <title>Layer 1</title>
-  <path fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" opacity="0.5" d="m528.687195,121.845177" id="svg_8"/>
-  <path fill="#ff5656" stroke-width="0" stroke-opacity="null" d="m371.904358,257.500031c-10.728394,4.257477 -17.972382,12.894104 -17.880707,21.530792l22.740601,-0.182465c4.951569,0.121643 4.768158,7.359375 0,7.481018c-10.025421,-0.060822 -20.050842,-0.121643 -30.076263,-0.182434c-11.18692,0.182434 -11.309174,18.733002 0,18.793793c11.309174,0.060852 3.851196,0.060852 8.069244,0c4.218018,-0.060791 4.218018,7.176941 0,7.298584c-7.5802,0.060822 -9.47525,0.121674 -17.05545,0.182465c-13.876648,0.1521 -13.815521,21.652435 -0.550171,21.713287c-0.122253,0.060822 68.894226,0.304108 68.771973,0.364929c15.710571,-0.121643 15.832825,-21.956543 0,-22.078217c-13.998901,0.121674 -22.312683,-0.121643 -36.311584,0c-4.340271,0.060852 -4.462524,-7.359406 0,-7.481049c9.536377,-0.121613 17.972412,-0.060791 28.609131,0c10.636749,0.060852 10.636749,-18.672211 0,-18.611389l-6.235321,0c3.973511,-2.432831 4.645966,-6.872803 -0.733582,-11.677704c-6.449249,-5.717194 -19.133881,-5.230621 -19.347809,-17.151642l-0.000031,0l0,0.000031l-0.000031,0z" id="svg_9" stroke="#000"/>
-  <text font-style="normal" font-weight="normal" fill="#FFAFCC" stroke-width="0" stroke-opacity="null" x="57.11648" y="331.27597" id="svg_13" font-size="63" font-family="'Times New Roman', Times, serif" text-anchor="start" xml:space="preserve" transform="matrix(1.72808 0 0 1.25424 -48.9633 -85.9717)" stroke="#000">SHIT      Search</text>
+  <path id="svg_8" d="m528.68719,121.84518" opacity="0.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000"/>
+  <path stroke="#000" id="svg_9" d="m373.656756,253.50003c-10.7284,4.25748 -17.97238,12.89411 -17.88071,21.53079l22.7406,-0.18246c4.95157,0.12164 4.76816,7.35937 0,7.48102c-10.02542,-0.06083 -20.05084,-0.12165 -30.07626,-0.18244c-11.18692,0.18244 -11.30917,18.733 0,18.7938c11.30917,0.06085 3.8512,0.06085 8.06924,0c4.21802,-0.0608 4.21802,7.17694 0,7.29858c-7.5802,0.06082 -9.47525,0.12167 -17.05545,0.18246c-13.87664,0.1521 -13.81552,21.65244 -0.55017,21.71329c-0.12225,0.06082 68.89423,0.30411 68.77198,0.36493c15.71057,-0.12164 15.83282,-21.95654 0,-22.07822c-13.99891,0.12168 -22.31269,-0.12164 -36.31159,0c-4.34027,0.06086 -4.46252,-7.3594 0,-7.48105c9.53638,-0.12161 17.97241,-0.06079 28.60913,0c10.63675,0.06086 10.63675,-18.67221 0,-18.61138l-6.23532,0c3.97351,-2.43284 4.64597,-6.87281 -0.73358,-11.67771c-6.44925,-5.71719 -19.13388,-5.23062 -19.34781,-17.15164l-0.00003,0l0,0.00003l-0.00003,0z" stroke-opacity="null" stroke-width="0" fill="url(#svg_5)"/>
+  <text stroke="#000" transform="matrix(1.72808,0,0,1.2542400000000002,-64.9633,-147.97170000000003) " xml:space="preserve" text-anchor="start" font-family="'Times New Roman', Times, serif" font-size="63" id="svg_13" y="378.526968" x="66.114415" stroke-opacity="null" stroke-width="0" fill="url(#svg_5)" font-weight="normal" font-style="normal">SHIT      Search</text>
  </g>
 </svg>
