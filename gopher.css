@@ -70,7 +70,7 @@ a {
 .con .shitlogo {
     position: relative;
     width: 480px;
-    height: 80px;
+    height: 120px;
     margin: 10px auto;
     background: url(icon/title.svg) no-repeat center/cover;
 }
@@ -92,7 +92,6 @@ a {
 
 .con .search form {
     width: 100%;
-    /*border: 1px solid #ddd;*/
     height: 50px;
     display: block;
     margin: 10px auto 30px;
@@ -103,7 +102,7 @@ a {
     width: 100%;
     height: 100%;
     display: block;
-    border: 1px solid #ddd;
+    border: 2px solid #ddd;
     border-radius: 25px;
     line-height: 100%;
     text-indent: 20px;
@@ -112,7 +111,7 @@ a {
 
 .con .search form .wd:focus {
     background: #fff;
-    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    box-shadow: 0 2px 6px 0 rgba(32, 33, 36, 0.28);
     border-color: #fff
 }
 
@@ -129,48 +128,6 @@ a {
     line-height: 40px;
     border-radius: 50%;
     color: #777;
-}
-
-.con .search ul {
-    height: 40px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-}
-
-.con .search ul li {
-    width: 120px;
-    margin: 0 10px;
-    float: left;
-    -webkit-tap-highlight-color: transparent;
-    background: #eee;
-    font-size: 16px;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    text-indent: 30px;
-    cursor: pointer;
-    position: relative;
-    border-radius: 20px;
-}
-
-.con .search ul li:active {
-    background: #fff;
-    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, .1);
-}
-
-.con .search ul li i {
-    position: absolute;
-    display: block;
-    width: 40px;
-    height: 40px;
-    left: 0;
-    border-radius: 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: #fff;
-    transform: scale(0.7);
 }
 
 .foot {
@@ -203,7 +160,7 @@ a {
     text-align: center;
 }
 
-#menu {
+#rightmenu {
     width: 50px;
     height: 50px;
     transform: scale(0.8);
@@ -215,7 +172,19 @@ a {
     transition: 0.5s;
 }
 
-#menu i {
+#leftmenu {
+    width: 50px;
+    height: 50px;
+    transform: scale(0.8);
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    z-index: 2000000;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#rightmenu i {
     position: absolute;
     left: 0;
     right: 0;
@@ -225,7 +194,17 @@ a {
     background: #777;
 }
 
-#menu i:before {
+#leftmenu i {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 24px auto;
+    width: 30px;
+    height: 2px;
+    background: #777;
+}
+
+#rightmenu i:before {
     content: '';
     width: 20px;
     height: 2px;
@@ -235,7 +214,17 @@ a {
     right: 0;
 }
 
-#menu i:after {
+#leftmenu i:before {
+    content: '';
+    width: 20px;
+    height: 2px;
+    top: -8px;
+    background: #777;
+    position: absolute;
+    left: 0;
+}
+
+#rightmenu i:after {
     content: '';
     width: 20px;
     height: 2px;
@@ -245,19 +234,41 @@ a {
     left: 0;
 }
 
-#menu.on {
+#leftmenu i:after {
+    content: '';
+    width: 20px;
+    height: 2px;
+    bottom: -8px;
+    background: #777;
+    position: absolute;
+    right: 0;
+}
+
+#rightmenu.on {
     right: 380px;
     background: #e1cf76;
     border-radius: 25px;
     box-shadow: 0 6px 8px rgba(36, 159, 253, .3);
 }
 
-#menu.on i {
+#leftmenu.on {
+    left: 380px;
+    background: #e1cf76;
+    border-radius: 25px;
+    box-shadow: 0 6px 8px rgba(36, 159, 253, .3);
+}
+
+#rightmenu.on i {
     width: 20px;
     background: #fff;
 }
 
-#menu.on i:before {
+#leftmenu.on i {
+    width: 20px;
+    background: #fff;
+}
+
+#rightmenu.on i:before {
     top: -5px;
     transform: rotate(45deg);
     width: 14px;
@@ -266,7 +277,16 @@ a {
     background: #fff;
 }
 
-#menu.on i:after {
+#leftmenu.on i:before {
+    top: -5px;
+    transform: rotate(-45deg);
+    width: 14px;
+    left: -1px;
+    right: auto;
+    background: #fff;
+}
+
+#rightmenu.on i:after {
     bottom: -5px;
     transform: rotate(-45deg);
     width: 14px;
@@ -275,7 +295,16 @@ a {
     background: #fff;
 }
 
-.list {
+#leftmenu.on i:after {
+    bottom: -5px;
+    transform: rotate(45deg);
+    width: 14px;
+    left: -1px;
+    right: auto;
+    background: #fff;
+}
+
+.rightlist {
     width: 337px;
     padding: 0 20px;
     height: 100%;
@@ -288,32 +317,71 @@ a {
     transition: 0.3s all linear;
 }
 
-.list.closed {
+.leftlist {
+    width: 337px;
+    padding: 0 20px;
+    height: 100%;
+    overflow: hidden;
+    overflow-y: auto;
+    position: absolute;
+    left: 0px;
+    z-index: 2000;
+    background: #222d46;
+    transition: 0.3s all linear;
+}
+
+.rightlist.closed {
     right: -380px;
 }
 
-.list ul {
+.leftlist.closed {
+    left: -380px;
+}
+
+.rightlist ul {
     width: 330px;
     float: left;
     padding: 0 0 20px;
     margin-bottom: 20px;
 }
 
-.list ul li {
+.leftlist ul {
+    width: 330px;
+    float: left;
+    padding: 0 0 20px;
+    margin-bottom: 20px;
+}
+
+.rightlist ul li {
     float: left;
     margin: 5px;
-    width: 100px;
+    width: 100%;
     height: 30px;
+    white-space: nowrap;
+    overflow: hidden;
     text-align: left;
+    text-indent: 10px;
     line-height: 30px;
 }
 
-.list ul li a {
+.leftlist ul li {
+    float: left;
+    margin: 5px;
+    width: 100%;
+    height: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: left;
+    text-indent: 10px;
+    line-height: 30px;
+}
+
+.rightlist ul li a {
     width: 100%;
     border-radius: 5px;
     transition: 0.2s all linear;
     height: 100%;
-    display: block;
+    display: inline-block;
     color: #fff;
     font-weight: 500;
     background: #293550;
@@ -321,20 +389,52 @@ a {
     font-size: 12px;
 }
 
-.list ul li:hover a {
+.leftlist ul li a {
+    width: 100%;
+    border-radius: 5px;
+    transition: 0.2s all linear;
+    height: 100%;
+    display: inline-block;
+    color: #fff;
+    font-weight: 500;
+    background: #293550;
+    text-align: left;
+    font-size: 12px;
+}
+
+.rightlist ul li:hover a {
     color: #fff;
     background-color: #e1cf76;
     background-image: linear-gradient(135deg, rgba(35, 153, 255) 0%, rgba(84, 175, 253) 100%);
     box-shadow: 0 3px 3px rgba(0, 40, 70, .3);
 }
 
-.list ul li.title {
+.leftlist ul li:hover a {
+    color: #fff;
+    background-color: #e1cf76;
+    background-image: linear-gradient(135deg, rgba(35, 153, 255) 0%, rgba(84, 175, 253) 100%);
+    box-shadow: 0 3px 3px rgba(0, 40, 70, .3);
+}
+
+.rightlist ul li.title {
     width: 100%;
     height: 40px;
     line-height: 40px;
-    margin: 30px 0 0;
+    margin: 0px 0 0;
     text-align: left;
-    text-indent: 10px;
+    text-indent: 0px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.leftlist ul li.title {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    margin: 0px 0 0;
+    text-align: left;
+    text-indent: 0px;
     color: #fff;
     font-size: 18px;
     font-weight: bold;
@@ -353,16 +453,32 @@ a {
     height: 22px;
 }
 
-svg.icon {
-    width: 14px;
-    height: 14px;
+img.icon {
+    width: 15px;
+    height: 15px;
     margin: 0 5px 0 8px;
     vertical-align: -0.15em;
     fill: currentColor;
     overflow: hidden;
+    border-radius: 5px;
 }
 
-.list ul li.title svg.icon {
+svg.icon {
+    width: 15px;
+    height: 15px;
+    margin: 0 5px 0 8px;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.rightlist ul li.title svg.icon {
+    width: 20px;
+    height: 20px;
+}
+
+.leftlist ul li.title svg.icon {
     width: 20px;
     height: 20px;
 }
@@ -387,26 +503,36 @@ svg.icon {
         border-radius: 25px;
     }
 
-    #menu.on {
+    #rightmenu.on {
         right: 270px;
     }
 
-    .list {
+    #leftmenu.on {
+        left: 270px;
+    }
+
+    .rightlist {
         width: 227px;
     }
 
-    .list ul {
+    .leftlist {
+        width: 227px;
+    }
+
+    .rightlist ul {
         width: 220px;
     }
 
-    .con .search ul li {
-        width: 100px;
-        font-size: 12px;
-        text-indent: 30px;
+    .leftlist ul {
+        width: 220px;
     }
 
     .home,
-    #menu {
+    #rightmenu {
+        top: 5px;
+    }
+
+    #leftmenu {
         top: 5px;
     }
 
@@ -451,7 +577,8 @@ svg.icon {
     }
 
     .home,
-    #menu,
+    #rightmenu,
+    #leftmenu,
     .wth,
     .foot {
         display: none;
@@ -465,11 +592,6 @@ svg.icon {
 
     .wth {
         color: #bbb;
-    }
-
-    .con .search ul li {
-        background: #293550;
-        color: #fff;
     }
 
     .con .search form .wd:focus {
