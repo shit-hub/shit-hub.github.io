@@ -64,6 +64,7 @@
   - [Man 手册](https://man7.org/linux/man-pages/index.html)
   - [Bash 手册](https://www.gnu.org/software/bash/manual/bash.html)
   - [Linux 命令](https://wangchujiang.com/linux-command/hot.html)
+  - [Markdown 速查表](https://markdown.com.cn/cheat-sheet.html)
 
 - 运维文档（DB）
   - [Etcd 官方文档](https://etcd.io/docs/)
