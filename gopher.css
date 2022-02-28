@@ -461,6 +461,7 @@ img.icon {
     fill: currentColor;
     overflow: hidden;
     border-radius: 5px;
+    background-color: #fcfcfc;
 }
 
 svg.icon {
@@ -471,6 +472,7 @@ svg.icon {
     fill: currentColor;
     overflow: hidden;
     border-radius: 5px;
+    background-color: #fcfcfc;
 }
 
 .rightlist ul li.title svg.icon {
