@@ -35,7 +35,7 @@
   - [Echo 官方文档](https://echo.labstack.com/guide/)
   - [Revel 官方文档](http://revel.github.io/manual/index.html)
   - [Fiber 官方文档](https://docs.gofiber.io)
-  - [Beego 官方文档](https://beego.me/docs/intro/)
+  - [Beego 官方文档](https://beego.vip/docs/intro/)
   - [GoFrame 官方文档](https://goframe.org/display/gf)
   - [Buffalo 官方文档](https://gobuffalo.io/en/docs/overview/)
 
